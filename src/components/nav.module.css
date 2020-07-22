@@ -1,0 +1,32 @@
+.main{
+    padding-top: 40px;
+    background-color: white !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px solid white;
+    box-shadow: none !important;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.rightnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    text-align: center;
+    padding-left: 750px;
+   
+    padding-top: 0%;
+    margin-top: -3%;
+}
+.rightnav *{
+    margin: 0 7px !important;
+}
+*{
+    box-shadow: none !important;
+}

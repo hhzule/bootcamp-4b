@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+}
+.appbar{
+    width: 100%;
+    /* height: 10%; */
+}
+.gif{
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    justify-content: center;
+    position: relative;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 0 8%;
+    justify-content: center !important;
+     margin-left: 15%;
+
+}
+.bannerslider{
+    margin-top: 20%;
+    margin-bottom: 15%;
+    position: relative;
+}
+.bannerslider {
+    width: 50%;
+    font-size: 45px;
+    color:rgb(13,58,120)
+}
+@media only screen and (max-width: 768px) {
+
+    .banner {
+      width: 100%;
+    }
+  }
